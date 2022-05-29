@@ -27,7 +27,7 @@
 
 ### Vim-Plug
 ```
-Plug 'catppuccin/vim'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ```
 
 ## 🙋 FAQ
