@@ -19,11 +19,9 @@
 
 ### Manually
 
-
 1. Clone this repository
-2. Create a folder inside your `.vim` named `colors`
-3. Put the `catppuccin.vim` file inside `colors`
-4. When Vim is running use `:colorscheme catppuccin` to apply the theme
+2. Put the `colors` folder inside your `.vim` (or if the `colors` folder already exists, move all the catppuccin palettes inside it)
+3. When Vim is running use `:colorscheme catppuccin_` followed by the flavor name (e.g. `:colorscheme catppuccin_mocha`)
 
 ### Vim-Plug
 ```
