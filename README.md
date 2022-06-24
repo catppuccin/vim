@@ -28,6 +28,9 @@
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ```
 
+### Setting up Vim
+To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file 
+
 ## 🙋 FAQ
 
 - Q: **_"Why can't I see all the color groups correctly?"_**
