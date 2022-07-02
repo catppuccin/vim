@@ -50,10 +50,10 @@ hi CursorIM         guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235 
 hi CursorColumn     guisp=NONE      guifg=NONE      guibg=#181825   ctermfg=NONE    ctermbg=234  gui=NONE           cterm=NONE
 hi CursorLine       guisp=NONE      guifg=NONE      guibg=#313244   ctermfg=NONE    ctermbg=236  gui=NONE           cterm=NONE
 hi Directory        guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
-hi DiffAdd          guisp=NONE      guifg=#A6E3A1   guibg=NONE      ctermfg=151     ctermbg=NONE gui=NONE           cterm=NONE
-hi DiffChange       guisp=NONE      guifg=#F9E2AF   guibg=NONE      ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
-hi DiffDelete       guisp=NONE      guifg=#F38BA8   guibg=NONE      ctermfg=211     ctermbg=NONE gui=NONE           cterm=NONE
-hi DiffText         guisp=NONE      guifg=#89B4FA   guibg=#1E1E2E   ctermfg=117     ctermbg=235  gui=NONE           cterm=NONE
+hi DiffAdd          guisp=NONE      guifg=#1E1E2E   guibg=#A6E3A1   ctermfg=235     ctermbg=151  gui=NONE           cterm=NONE
+hi DiffChange       guisp=NONE      guifg=#1E1E2E   guibg=#F9E2AF   ctermfg=235     ctermbg=223 gui=NONE           cterm=NONE
+hi DiffDelete       guisp=NONE      guifg=#1E1E2E   guibg=#F38BA8   ctermfg=235     ctermbg=211 gui=NONE           cterm=NONE
+hi DiffText         guisp=NONE      guifg=#1E1E2E   guibg=#89B4FA   ctermfg=235     ctermbg=117 gui=NONE           cterm=NONE
 hi EndOfBuffer      guisp=NONE      guifg=NONE      guibg=NONE      ctermfg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi ErrorMsg         guisp=NONE      guifg=#F38BA8   guibg=NONE      ctermfg=211     ctermbg=NONE gui=bold,italic    cterm=bold,italic
 hi VertSplit        guisp=NONE      guifg=#11111B   guibg=NONE      ctermfg=234     ctermbg=NONE gui=NONE           cterm=NONE
