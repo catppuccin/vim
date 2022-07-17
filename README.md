@@ -15,21 +15,33 @@
   <img src="https://raw.githubusercontent.com/catppuccin/vim/main/assets/demo.png"/>
 </p>
 
+## ✨ Integrations
+- [lightline](https://github.com/itchyny/lightline.vim)
+
 ## Usage
 
 ### Manually
-
 1. Clone this repository
 2. Put the `colors` folder inside your `.vim` (or if the `colors` folder already exists, move all the catppuccin palettes inside it)
 3. When Vim is running use `:colorscheme catppuccin_` followed by the flavor name (e.g. `:colorscheme catppuccin_mocha`)
 
 ### Vim-Plug
-```
+```vim
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ```
 
 ### Setting up Vim
-To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file 
+To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+
+## ✨ Integrations setup
+
+### lightline
+1. Put the content of `autoload/lightline/colorscheme` inside the lightline plugin folder
+2. Set the colorscheme by inserting the following line in your `.vimrc`:
+```vim
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+```
+3. Now that lightline is good to go, you can use `set noshowmode` to hide the default mode showcase since now it will be displayed in the plugin
 
 ## 🙋 FAQ
 
