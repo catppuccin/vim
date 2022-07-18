@@ -36,7 +36,7 @@ To get the expected visuals, you need to insert `set termguicolors` within your 
 ## ✨ Integrations setup
 
 ### lightline
-1. Put the content of `autoload/lightline/colorscheme` inside the lightline plugin folder
+1. Download the plugin via your plugin manager or manually
 2. Set the colorscheme by inserting the following line in your `.vimrc`:
 ```vim
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
