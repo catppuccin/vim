@@ -9,6 +9,7 @@ endif
 
 let g:colors_name='catppuccin_mocha'
 set t_Co=256
+set cursorline
 
 " rosewater = "#F5E0DC"
 " flamingo = "#F2CDCD"
@@ -48,12 +49,12 @@ hi Cursor           guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235 
 hi lCursor          guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235     ctermbg=254  gui=NONE           cterm=NONE
 hi CursorIM         guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235     ctermbg=254  gui=NONE           cterm=NONE
 hi CursorColumn     guisp=NONE      guifg=NONE      guibg=#181825   ctermfg=NONE    ctermbg=234  gui=NONE           cterm=NONE
-hi CursorLine       guisp=NONE      guifg=NONE      guibg=#313244   ctermfg=NONE    ctermbg=236  gui=NONE           cterm=NONE
+hi CursorLine       guisp=NONE      guifg=NONE      guibg=#313244   ctermfg=NONE    ctermbg=236  gui=NONE
 hi Directory        guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
 hi DiffAdd          guisp=NONE      guifg=#1E1E2E   guibg=#A6E3A1   ctermfg=235     ctermbg=151  gui=NONE           cterm=NONE
-hi DiffChange       guisp=NONE      guifg=#1E1E2E   guibg=#F9E2AF   ctermfg=235     ctermbg=223 gui=NONE           cterm=NONE
-hi DiffDelete       guisp=NONE      guifg=#1E1E2E   guibg=#F38BA8   ctermfg=235     ctermbg=211 gui=NONE           cterm=NONE
-hi DiffText         guisp=NONE      guifg=#1E1E2E   guibg=#89B4FA   ctermfg=235     ctermbg=117 gui=NONE           cterm=NONE
+hi DiffChange       guisp=NONE      guifg=#1E1E2E   guibg=#F9E2AF   ctermfg=235     ctermbg=223  gui=NONE           cterm=NONE
+hi DiffDelete       guisp=NONE      guifg=#1E1E2E   guibg=#F38BA8   ctermfg=235     ctermbg=211  gui=NONE           cterm=NONE
+hi DiffText         guisp=NONE      guifg=#1E1E2E   guibg=#89B4FA   ctermfg=235     ctermbg=117  gui=NONE           cterm=NONE
 hi EndOfBuffer      guisp=NONE      guifg=NONE      guibg=NONE      ctermfg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
 hi ErrorMsg         guisp=NONE      guifg=#F38BA8   guibg=NONE      ctermfg=211     ctermbg=NONE gui=bold,italic    cterm=bold,italic
 hi VertSplit        guisp=NONE      guifg=#11111B   guibg=NONE      ctermfg=234     ctermbg=NONE gui=NONE           cterm=NONE
@@ -61,9 +62,8 @@ hi Folded           guisp=NONE      guifg=#89B4FA   guibg=#45475A   ctermfg=117 
 hi FoldColumn       guisp=NONE      guifg=#6C7086   guibg=#1E1E2E   ctermfg=243     ctermbg=235  gui=NONE           cterm=NONE
 hi SignColumn       guisp=NONE      guifg=#45475A   guibg=#1E1E2E   ctermfg=240     ctermbg=235  gui=NONE           cterm=NONE
 hi IncSearch        guisp=NONE      guifg=#45475A   guibg=#F5C2E7   ctermfg=240     ctermbg=218  gui=NONE           cterm=NONE
-hi LineNr           guisp=NONE      guifg=#B4BEFE   guibg=NONE      ctermfg=240     ctermbg=NONE gui=NONE           cterm=NONE
-hi LineNrAbove      guisp=NONE      guifg=#45475A   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi LineNrBelow      guisp=NONE      guifg=#45475A   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
+hi CursorLineNR     guisp=NONE      guifg=#B4BEFE   guibg=NONE      ctermfg=NONE    ctermbg=NONE gui=NONE           cterm=NONE
+hi LineNr           guisp=NONE      guifg=#45475A   guibg=NONE      ctermfg=240     ctermbg=NONE gui=NONE           cterm=NONE
 hi MatchParen       guisp=NONE      guifg=#FAB387   guibg=NONE      ctermfg=216     ctermbg=NONE gui=bold           cterm=bold
 hi ModeMsg          guisp=NONE      guifg=#CDD6F4   guibg=NONE      ctermfg=254     ctermbg=NONE gui=bold           cterm=bold
 hi MoreMsg          guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
