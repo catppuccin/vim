@@ -49,7 +49,7 @@ hi Cursor           guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235 
 hi lCursor          guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235     ctermbg=254  gui=NONE           cterm=NONE
 hi CursorIM         guisp=NONE      guifg=#1E1E2E   guibg=#CDD6F4   ctermfg=235     ctermbg=254  gui=NONE           cterm=NONE
 hi CursorColumn     guisp=NONE      guifg=NONE      guibg=#181825   ctermfg=NONE    ctermbg=234  gui=NONE           cterm=NONE
-hi CursorLine       guisp=NONE      guifg=NONE      guibg=#313244   ctermfg=NONE    ctermbg=236  gui=NONE
+hi CursorLine       guisp=NONE      guifg=NONE      guibg=#313244   ctermfg=NONE    ctermbg=236  gui=NONE           cterm=NONE
 hi Directory        guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
 hi DiffAdd          guisp=NONE      guifg=#1E1E2E   guibg=#A6E3A1   ctermfg=235     ctermbg=151  gui=NONE           cterm=NONE
 hi DiffChange       guisp=NONE      guifg=#1E1E2E   guibg=#F9E2AF   ctermfg=235     ctermbg=223  gui=NONE           cterm=NONE
