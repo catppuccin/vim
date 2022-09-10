@@ -20,6 +20,8 @@
 
 ## Usage
 
+**Note:** To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+
 ### Manually
 1. Clone this repository
 2. Put the `colors` folder inside your `.vim` (or if the `colors` folder already exists, move all the catppuccin palettes inside it)
@@ -29,9 +31,6 @@
 ```vim
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ```
-
-### Setting up Vim
-To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
 
 ## ✨ Integrations setup
 
