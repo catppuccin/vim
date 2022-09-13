@@ -75,7 +75,7 @@ hi PmenuThumb       guisp=NONE      guifg=NONE      guibg=#6E738D   ctermfg=NONE
 hi Question         guisp=NONE      guifg=#8AADF4   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
 hi QuickFixLine     guisp=NONE      guifg=NONE      guibg=#494D64   ctermfg=NONE    ctermbg=240  gui=bold           cterm=bold
 hi Search           guisp=NONE      guifg=#F5BDE6   guibg=#494D64   ctermfg=218     ctermbg=240  gui=bold           cterm=bold
-hi SpecialKey       guisp=NONE      guifg=#CAD3F5   guibg=NONE      ctermfg=254     ctermbg=NONE gui=NONE           cterm=NONE
+hi SpecialKey       guisp=NONE      guifg=#A5ADCB   guibg=NONE      ctermfg=254     ctermbg=NONE gui=NONE           cterm=NONE
 hi SpellBad         guisp=#ED8796   guifg=NONE      guibg=NONE      ctermfg=211     ctermbg=NONE gui=underline      cterm=underline
 hi SpellCap         guisp=#EED49F   guifg=NONE      guibg=NONE      ctermfg=223     ctermbg=NONE gui=underline      cterm=underline
 hi SpellLocal       guisp=#8AADF4   guifg=NONE      guibg=NONE      ctermfg=117     ctermbg=NONE gui=underline      cterm=underline
