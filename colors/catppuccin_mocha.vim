@@ -82,12 +82,9 @@ hi SpellLocal       guisp=#89B4FA   guifg=NONE      guibg=NONE      ctermfg=117 
 hi SpellRare        guisp=#A6E3A1   guifg=NONE      guibg=NONE      ctermfg=151     ctermbg=NONE gui=underline      cterm=underline
 hi StatusLine       guisp=NONE      guifg=#CDD6F4   guibg=#181825   ctermfg=254     ctermbg=234  gui=NONE           cterm=NONE
 hi StatusLineNC     guisp=NONE      guifg=#45475A   guibg=#181825   ctermfg=240     ctermbg=234  gui=NONE           cterm=NONE
-hi StatusLineTerm   guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi StatusLineTermNC guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
 hi TabLine          guisp=NONE      guifg=#45475A   guibg=#181825   ctermfg=240     ctermbg=234  gui=NONE           cterm=NONE
 hi TabLineFill      guisp=NONE      guifg=NONE      guibg=#181825   ctermfg=NONE    ctermbg=234  gui=NONE           cterm=NONE
 hi TabLineSel       guisp=NONE      guifg=#A6E3A1   guibg=#45475A   ctermfg=151     ctermbg=240  gui=NONE           cterm=NONE
-hi Terminal         guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
 hi Title            guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=bold           cterm=bold
 hi VisualNOS        guisp=NONE      guifg=NONE      guibg=#45475A   ctermfg=NONE    ctermbg=240  gui=bold           cterm=bold
 hi WarningMsg       guisp=NONE      guifg=#F9E2AF   guibg=NONE      ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
@@ -99,8 +96,7 @@ hi Statement        guisp=NONE      guifg=#CBA6F7   guibg=NONE      ctermfg=183 
 hi PreProc          guisp=NONE      guifg=#F5C2E7   guibg=NONE      ctermfg=218     ctermbg=NONE gui=NONE           cterm=NONE
 hi Type             guisp=NONE      guifg=#89B4FA   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
 hi Special          guisp=NONE      guifg=#F5C2E7   guibg=NONE      ctermfg=218     ctermbg=NONE gui=NONE           cterm=NONE
-hi Underlined       guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=underline      cterm=underline
-hi Ignore           guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
+hi Underlined       guisp=NONE      guifg=#CDD6F4   guibg=#1E1E2E   ctermfg=254     ctermbg=235  gui=underline      cterm=underline
 hi Error            guisp=NONE      guifg=#F38BA8   guibg=NONE      ctermfg=211     ctermbg=NONE gui=NONE           cterm=NONE
 hi Todo             guisp=NONE      guifg=#1E1E2E   guibg=#F9E2AF   ctermfg=235     ctermbg=223  gui=bold           cterm=bold
 
@@ -115,16 +111,23 @@ hi Repeat           guisp=NONE      guifg=#F38BA8   guibg=NONE      ctermfg=211 
 hi Label            guisp=NONE      guifg=#FAB387   guibg=NONE      ctermfg=216     ctermbg=NONE gui=NONE           cterm=NONE
 hi Operator         guisp=NONE      guifg=#89DCEB   guibg=NONE      ctermfg=117     ctermbg=NONE gui=NONE           cterm=NONE
 hi Keyword          guisp=NONE      guifg=#F5C2E7   guibg=NONE      ctermfg=218     ctermbg=NONE gui=NONE           cterm=NONE
-hi Exception        guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
 hi Include          guisp=NONE      guifg=#F5C2E7   guibg=NONE      ctermfg=218     ctermbg=NONE gui=NONE           cterm=NONE
-hi Define           guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi Macro            guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi PreCondit        guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
 hi StorageClass     guisp=NONE      guifg=#F9E2AF   guibg=NONE      ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
 hi Structure        guisp=NONE      guifg=#F9E2AF   guibg=NONE      ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
 hi Typedef          guisp=NONE      guifg=#F9E2AF   guibg=NONE      ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
-hi SpecialChar      guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi Tag              guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi Delimiter        guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi SpecialComment   guisp=NONE      guifg=#ffffff   guibg=NONE      ctermfg=231     ctermbg=NONE gui=NONE           cterm=NONE
-hi Debug            guisp=NONE      guifg=NONE      guibg=#11111B   ctermfg=NONE    ctermbg=234  gui=NONE           cterm=NONE
+hi debugPC          guisp=NONE      guifg=NONE      guibg=#11111B   ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
+hi debugBreakpoint  guisp=NONE      guifg=#6C7086   guibg=#1E1E2E   ctermfg=223     ctermbg=NONE gui=NONE           cterm=NONE
+
+hi link Define PreProc
+hi link Macro PreProc
+hi link PreCondit PreProc
+hi link SpecialChar Special
+hi link Tag Special
+hi link Delimiter Special
+hi link SpecialComment Special
+hi link Debug Special
+hi link Exception Error
+hi link StatusLineTerm StatusLine
+hi link StatusLineTermNC StatusLineNC
+hi link Terminal Normal
+hi link Ignore Comment
