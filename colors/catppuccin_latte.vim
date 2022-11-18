@@ -1,6 +1,6 @@
 " Name: catppuccin_latte.vim
 
-set background=dark
+set background=light
 hi clear
 
 if exists('syntax on')
