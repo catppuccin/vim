@@ -9,7 +9,6 @@ endif
 
 let g:colors_name='catppuccin_frappe'
 set t_Co=256
-set cursorline
 
 " rosewater = "#F2D5CF"
 " flamingo = "#EEBEBE"
