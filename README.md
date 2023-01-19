@@ -17,6 +17,7 @@
 
 ## ✨ Integrations
 - [lightline](https://github.com/itchyny/lightline.vim)
+- [airline](https://github.com/vim-airline/vim-airline)
 
 ## Usage
 
@@ -41,6 +42,13 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 ```
 3. Now that lightline is good to go, you can use `set noshowmode` to hide the default mode showcase since now it will be displayed in the plugin
+
+### airline
+Airline should automatically choose the correct theme.
+If it does not you can force it by inserting the following line in your `.vimrc`:
+```vim
+let g:airline_theme = 'catppuccin_mocha'
+```
 
 ## 🙋 FAQ
 
