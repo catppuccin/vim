@@ -45,12 +45,12 @@ let s:N3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
 " Insert mode
 let s:I1 = [ s:mantle , s:teal , 59  , 74  ] " guifg guibg ctermfg ctermbg
 let s:I2 = [ s:teal , s:mantle , 74  , 59  ] " guifg guibg ctermfg ctermbg
-let s:I3 = [ s:text , s:crust , 145 , 16  ] " guifg guibg ctermfg ctermbg
+let s:I3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
 
 " Visual mode
 let s:V1 = [ s:mantle , s:mauve , 59  , 209 ] " guifg guibg ctermfg ctermbg
 let s:V2 = [ s:mauve , s:mantle , 209 , 59  ] " guifg guibg ctermfg ctermbg
-let s:V3 = [ s:text , s:crust , 145 , 16  ] " guifg guibg ctermfg ctermbg
+let s:V3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
 
 " Replace mode
 let s:RE = [ s:mantle , s:red , 59  , 203 ] " guifg guibg ctermfg ctermbg
