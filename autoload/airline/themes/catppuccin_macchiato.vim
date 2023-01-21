@@ -55,6 +55,10 @@ let s:V3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
 " Replace mode
 let s:RE = [ s:mantle , s:red , 59  , 203 ] " guifg guibg ctermfg ctermbg
 
+" Warning section
+let s:WR = [s:mantle ,s:peach , 232, 166 ]
+
+
 let g:airline#themes#catppuccin_macchiato#palette = {}
 
 let g:airline#themes#catppuccin_macchiato#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -70,3 +74,7 @@ let g:airline#themes#catppuccin_macchiato#palette.replace.airline_a = [ s:RE[0] 
 
 let s:IA = [ s:N1[1] , s:N3[1] , s:N1[3] , s:N3[3] , '' ]
 let g:airline#themes#catppuccin_macchiato#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
+
+let g:airline#themes#catppuccin_macchiato#palette.normal.airline_warning = s:WR
+let g:airline#themes#catppuccin_macchiato#palette.insert.airline_warning = s:WR
+let g:airline#themes#catppuccin_macchiato#palette.visual.airline_warning = s:WR
