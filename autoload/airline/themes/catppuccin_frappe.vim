@@ -65,7 +65,7 @@ let g:airline#themes#catppuccin_frappe#palette.normal = airline#themes#generate_
 
 let g:airline#themes#catppuccin_frappe#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#catppuccin_frappe#palette.insert_replace = {
-	    \ 'airline_a': [ s:RE[0]   , s:I1[1]   , s:RE[1]   , s:I1[3]   , ''     ] }
+	\ 'airline_a': [ s:RE[0]   , s:I1[1]   , s:RE[1]   , s:I1[3]   , ''     ] }
 
 let g:airline#themes#catppuccin_frappe#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
