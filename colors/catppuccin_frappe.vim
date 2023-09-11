@@ -153,3 +153,9 @@ hi link StatusLineTerm StatusLine
 hi link StatusLineTermNC StatusLineNC
 hi link Terminal Normal
 hi link Ignore Comment
+
+" Set terminal colors for playing well with plugins like fzf
+let g:terminal_ansi_colors = [
+  \ s:surface1, s:red, s:green, s:yellow, s:blue, s:pink, s:teal, s:subtext1,
+  \ s:surface2, s:red, s:green, s:yellow, s:blue, s:pink, s:teal, s:subtext0
+\ ]
