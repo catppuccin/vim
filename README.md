@@ -23,6 +23,15 @@
 
 **Note:** To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
 
+### Vim 8+ Packages
+
+If you have Vim version 8 or later, you can use its provided package manager.
+Just run the following command and then start vim:
+
+```bash
+git clone https://github.com/catppuccin/vim.git ~/.vim/pack/vendor/start/catppuccin
+```
+
 ### Manually
 1. Clone this repository
 2. Put the `colors` folder inside your `.vim` (or if the `colors` folder already exists, move all the catppuccin palettes inside it)
