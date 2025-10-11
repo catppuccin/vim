@@ -1,0 +1,40 @@
+; vim: ft=colortemplate noet cc=32,47,62 vts=31,15,15,4
+
+; Color palette
+Color: rosewater	#F4DBD6	224	Yellow
+Color: flamingo	#F0C6C6	181	Yellow
+Color: pink	#F5BDE6	218	Magenta
+Color: mauve	#C6A0F6	183	DarkMagenta
+Color: red	#ED8796	174	Red
+Color: maroon	#EE99A0	217	DarkRed
+Color: peach	#F5A97F	216	DarkYellow
+Color: yellow	#EED49F	222	Yellow
+Color: green	#A6DA95	150	Green
+Color: teal	#8BD5CA	116	DarkGreen
+Color: sky	#91D7E3	116	Cyan
+Color: sapphire	#7DC4E4	117	DarkCyan
+Color: blue	#8AADF4	111	Blue
+Color: lavender	#B7BDF8	147	LightGrey
+
+Color: text	#CAD3F5	189	White
+Color: subtext1	#B8C0E0	146	Grey
+Color: subtext0	#A5ADCB	146	White
+Color: overlay2	#939AB7	103	Grey
+Color: overlay1	#8087A2	102	Grey
+Color: overlay0	#6E738D	59	Grey
+Color: surface2	#5B6078	60	DarkGrey
+Color: surface1	#494D64	240	Black
+Color: surface0	#363A4F	237	DarkYellow
+
+Color: base	#24273A	235	Black
+Color: mantle	#1E2030	235	DarkGrey
+Color: crust	#181926	234	Black
+
+Color: cursorLine	#303347	236
+Color: diffAdd	#3B474A	238	DarkGreen
+Color: diffChange	#2B3047	236	DarkYellow
+Color: diffDelete	#48384B	237	DarkRed
+Color: diffText	#434F72	60	DarkCyan
+Color: search	#455C6D	24	DarkBlue
+Color: curSearch	#895768	96	Red
+Color: quickFixLine	#554B72	53	Magenta

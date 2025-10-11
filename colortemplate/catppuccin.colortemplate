@@ -1,0 +1,22 @@
+; vim: ft=colortemplate noet cc=32,47,62 vts=31,15,15,4
+Full name:   Catppuccin Latte (for light) and Mocha (for dark)
+Short name:  catppuccin
+Description: Soothing pastel theme for the high-spirited!
+Author:      The Catppuccin Community <catppuccin.com>
+Maintainer:  M3nny <https://github.com/M3nny>
+Maintainer:  Mao-Yining <mao.yining@outlook.com>
+URL:         https://github.com/catppuccin/vim
+
+Environments: gui 256 16 8
+
+Background: dark
+
+Include: palettes/mocha
+
+Background: light
+
+Include: palettes/latte
+
+Background: any
+
+Include: groups/init

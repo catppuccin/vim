@@ -1,0 +1,152 @@
+; vim: ft=colortemplate noet cc=32,47,62 vts=31,15,15,4
+
+; Base highlight groups and syntax links
+
+; Highlights
+; Group	Foreground	Background	Attributes
+Normal	text	base
+Visual	surface1	text	reverse
+  /gui	none	surface1
+  /256+tgc true	omit	omit
+  /16/8	blue	base	bold,reverse
+Conceal	overlay1	none
+ColorColumn	none	mantle
+  /8	base	overlay0
+Cursor	base	rosewater
+lCursor	base	red
+CursorIM	base	mauve
+CursorColumn	none	mantle
+Directory	blue	none
+EndOfBuffer	surface1	none
+  /16	surface2	none
+  /8	overlay0	none
+ErrorMsg	red	none	bold
+VertSplit	blue	none
+VertSplitNC	crust	none
+  /16/8	overlay0	none
+Folded	blue	none
+FoldColumn	overlay0	none
+SignColumn	surface1	none
+CursorLineNr	lavender	none
+  /16/8	text	none
+LineNr	surface1	none
+  /16/8	overlay0	none
+MatchParen	peach	none	bold
+ModeMsg	text	none	bold
+MoreMsg	blue	none
+NonText	overlay0	none
+Popup	text	mantle
+PopupTitle	subtext0	mantle
+Pmenu	overlay2	mantle
+PmenuBorder	blue	mantle
+PmenuExtra	overlay0	mantle
+PmenuExtraSel	overlay0	surface0	bold
+PmenuSel	none	surface0	bold
+PmenuSbar	none	surface0
+PmenuThumb	none	overlay0
+PmenuMatch	text	none	bold
+PmenuMatchSel	text	none	bold
+PreInsert	overlay2	none
+Question	blue	none
+SpellBad	red	none	underline
+  /gui	none	none	s=red undercurl
+SpellCap	yellow	none	underline
+  /gui	none	none	s=yellow undercurl
+SpellLocal	blue	none	underline
+  /gui	none	none	s=blue undercurl
+SpellRare	green	none	underline
+  /gui	none	none	s=green undercurl
+StatusLine	text	crust	bold
+  /16/8	text	mantle	reverse,bold
+StatusLineNC	overlay0	mantle
+  /16	overlay0	mantle
+  /8	overlay0	mantle	reverse
+TabLine	overlay0	crust
+TabLineSel	text	base
+  /8	text	mantle	bold
+TabLineFill	none	mantle
+ToolbarLine	none	none
+ToolbarButton	rosewater	none
+Title	blue	none	bold
+TitleBar	text	mantle
+TitleBarNC	overlay0	crust
+VisualNOS	none	surface1	bold
+WarningMsg	yellow	none
+WildMenu	none	overlay0
+
+Comment	overlay2	none
+Constant	peach	none
+Identifier	flamingo	none
+Statement	mauve	none
+PreProc	pink	none
+Type	yellow	none
+Special	pink	none
+Underlined	none	none	underline
+Bold	none	none	bold
+Italic	none	none	italic
+Error	red	none
+Todo	flamingo	none	bold
+Exception	mauve	none
+String	green	none
+Tag	lavender	none	bold
+Delimiter	overlay2	none
+Character	teal	none
+Function	blue	none
+Conditional	mauve	none
+Repeat	mauve	none
+Label	sapphire	none
+Operator	sky	none
+Keyword	mauve	none
+Include	mauve	none
+Macro	mauve	none
+StorageClass	yellow	none
+Structure	yellow	none
+
+Added	green	none
+Removed	red	none
+Changed	blue	none
+
+debugPC	none	crust
+debugBreakpoint	overlay0	base
+
+; Specially fine-tuned colors
+CursorLine	none	cursorLine
+  /16/8	none	none	underline
+DiffAdd	none	diffAdd
+  /16/8	base	diffAdd
+DiffChange	none	diffChange
+  /16/8	base	diffChange
+DiffText	none	diffText
+  /16/8	base	diffText
+DiffDelete	none	diffDelete
+  /16/8	base	diffDelete
+Search	text	search
+CurSearch	text	curSearch
+QuickFixLine	text	quickFixLine	bold
+  /gui	none	quickFixLine	bold
+  /256+tgc true	omit	omit
+  /16	base	quickFixLine	bold
+
+; Links
+Boolean	-> Constant
+Debug	-> Special
+Define	-> PreProc
+Float	-> Constant
+Ignore	-> Comment
+Number	-> Constant
+PreCondit	-> PreProc
+SpecialChar	-> Special
+SpecialComment	-> Special
+SpecialKey	-> NonText
+Typedef	-> Type
+
+Terminal	-> Normal
+IncSearch	-> CurSearch
+LineNrAbove	-> LineNr
+LineNrBelow	-> LineNr
+StatusLineTerm	-> StatusLine
+StatusLineTermNC	-> StatusLineNC
+CursorLineFold	-> FoldColumn
+CursorLineSign	-> SignColumn
+PopupNotification	-> WarningMsg
+PopupBorder	-> PmenuBorder

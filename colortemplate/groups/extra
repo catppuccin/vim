@@ -1,0 +1,73 @@
+; vim: ft=colortemplate noet cc=32,47,62 vts=31,15,15,4
+
+; Extra highlight groups and syntax links for plugins
+
+; Highlights
+; Group	Foreground	Background	Attributes
+qfLineNr	yellow	none
+qfFileName	blue	none
+diffAdded	green	none
+diffRemoved	red	none
+diffChanged	blue	none
+diffOldFile	yellow	none
+diffNewFile	peach	none
+diffFile	blue	none
+diffLine	overlay0	none
+diffIndexLine	teal	none
+
+csvCol0	red	none
+csvCol1	peach	none
+csvCol2	yellow	none
+csvCol3	green	none
+csvCol4	sky	none
+csvCol5	blue	none
+csvCol6	lavender	none
+csvCol7	mauve	none
+csvCol8	pink	none
+
+markdownHeadingDelimiter	peach	none	bold
+markdownCode	flamingo	none
+markdownCodeBlock	flamingo	none
+markdownLinkText	blue	none	underline
+
+markdownH1	red	none
+markdownH2	peach	none
+markdownH3	yellow	none
+markdownH4	green	none
+markdownH5	sapphire	none
+markdownH6	lavender	none
+
+LspDiagVirtualTextError	red	mantle	bold
+LspDiagVirtualTextWarning	yellow	mantle	bold
+LspDiagVirtualTextHint	blue	mantle	bold
+LspDiagVirtualTextInfo	green	mantle	bold
+LspDiagSignErrorText	red	none	bold
+LspDiagSignWarningText	yellow	none	bold
+LspDiagSignHintText	blue	none	bold
+LspDiagSignInfoText	green	none	bold
+LspPopup	-> Popup
+LspPopupBorder	-> PopupBorder
+
+GlyphPalette1	red	none
+GlyphPalette2	teal	none
+GlyphPalette3	yellow	none
+GlyphPalette4	blue	none
+GlyphPalette6	teal	none
+GlyphPalette7	text	none
+GlyphPalette9	red	none
+
+SignifySignAdd	green	none
+SignifySignChange	yellow	none
+SignifySignDelete	red	none
+
+; links
+dirMark	-> DiffText
+ALEVirtualTextError	-> LspDiagVirtualTextError
+ALEVirtualTextWarning	-> LspDiagVirtualTextWarning
+ALEVirtualTextInfo	-> LspDiagVirtualTextInfo
+rainbow1	-> markdownH1
+rainbow2	-> markdownH2
+rainbow3	-> markdownH3
+rainbow4	-> markdownH4
+rainbow5	-> markdownH5
+rainbow6	-> markdownH6

@@ -1,12 +1,8 @@
-" =============================================================================
 " Filename: autoload/airline/themes/catppuccin_latte.vim
-" Author: tilmaneggers
+" Author: tilmaneggers, Mao-Yining
 " License: MIT License
-" Last Change: 2023/01/19
-"
-" =============================================================================
+" Last Change: 2026-01-31
 
-" Original theme colors
 let s:rosewater = "#dc8a78"
 let s:flamingo = "#DD7878"
 let s:pink = "#ea76cb"
@@ -21,7 +17,7 @@ let s:sky = "#04A5E5"
 let s:sapphire = "#209FB5"
 let s:blue = "#1e66f5"
 let s:lavender = "#7287FD"
-"
+
 let s:text = "#4C4F69"
 let s:subtext1 = "#5C5F77"
 let s:subtext0 = "#6C6F85"
@@ -31,50 +27,57 @@ let s:overlay0 = "#9CA0B0"
 let s:surface2 = "#ACB0BE"
 let s:surface1 = "#BCC0CC"
 let s:surface0 = "#CCD0DA"
-"
+
 let s:base = "#EFF1F5"
 let s:mantle = "#E6E9EF"
 let s:crust = "#DCE0E8"
 
-" Normal mode
-" (Dark)
-let s:N1 = [ s:mantle , s:blue , 59  , 149 ] " guifg guibg ctermfg ctermbg
-let s:N2 = [ s:blue , s:surface1 , 149 , 59  ] " guifg guibg ctermfg ctermbg
-let s:N3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
+let s:N1 = [s:mantle, s:blue, 255, 27]
+let s:N2 = [s:blue, s:surface0, 27, 252]
+let s:N3 = [s:text, s:mantle, 236, 255]
 
-" Insert mode
-let s:I1 = [ s:mantle , s:teal , 59  , 74  ] " guifg guibg ctermfg ctermbg
-let s:I2 = [ s:teal , s:mantle , 74  , 59  ] " guifg guibg ctermfg ctermbg
-let s:I3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
+let s:I1 = [s:mantle, s:teal, 255, 30]
+let s:I2 = [s:teal, s:surface0, 30, 252]
 
-" Visual mode
-let s:V1 = [ s:mantle , s:mauve , 59  , 209 ] " guifg guibg ctermfg ctermbg
-let s:V2 = [ s:mauve , s:mantle , 209 , 59  ] " guifg guibg ctermfg ctermbg
-let s:V3 = [ s:text , s:base , 145 , 16  ] " guifg guibg ctermfg ctermbg
+let s:V1 = [s:mantle, s:mauve, 255, 209]
+let s:V2 = [s:mauve, s:surface0, 209, 253]
 
-" Replace mode
-let s:RE = [ s:mantle , s:red , 59  , 203 ] " guifg guibg ctermfg ctermbg
+let s:R1 = [s:mantle, s:red, 255, 203]
+let s:R2 = [s:red, s:surface0, 203, 253]
 
-" Warning section
-let s:WR = [s:mantle ,s:peach , 232, 166 ]
+let s:C1 = [s:base, s:peach, 231, 166]
+let s:C2 = [s:peach, s:surface0, 166, 253]
 
+let s:WR = [s:mantle, s:peach, 255, 202]
+
+let s:ER = [s:mantle, s:red, 255, 161]
+
+let s:IA = [s:N1[1], s:N3[1], s:N1[3], s:N3[3], '']
 
 let g:airline#themes#catppuccin_latte#palette = {}
-
 let g:airline#themes#catppuccin_latte#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
-
-let g:airline#themes#catppuccin_latte#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-let g:airline#themes#catppuccin_latte#palette.insert_replace = {
-	\ 'airline_a': [ s:RE[0]   , s:I1[1]   , s:RE[1]   , s:I1[3]   , ''     ] }
-
-let g:airline#themes#catppuccin_latte#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
-
-let g:airline#themes#catppuccin_latte#palette.replace = copy(g:airline#themes#catppuccin_latte#palette.normal)
-let g:airline#themes#catppuccin_latte#palette.replace.airline_a = [ s:RE[0] , s:RE[1] , s:RE[2] , s:RE[3] , '' ]
-
-let s:IA = [ s:N1[1] , s:N3[1] , s:N1[3] , s:N3[3] , '' ]
+let g:airline#themes#catppuccin_latte#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:N3)
+let g:airline#themes#catppuccin_latte#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:N3)
+let g:airline#themes#catppuccin_latte#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:N3)
+let g:airline#themes#catppuccin_latte#palette.commandline = airline#themes#generate_color_map(s:C1, s:C2, s:N3)
 let g:airline#themes#catppuccin_latte#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 
 let g:airline#themes#catppuccin_latte#palette.normal.airline_warning = s:WR
 let g:airline#themes#catppuccin_latte#palette.insert.airline_warning = s:WR
 let g:airline#themes#catppuccin_latte#palette.visual.airline_warning = s:WR
+let g:airline#themes#catppuccin_latte#palette.replace.airline_warning = s:WR
+let g:airline#themes#catppuccin_latte#palette.commandline.airline_warning = s:WR
+
+let g:airline#themes#catppuccin_latte#palette.normal.airline_warning_to_airline_error = s:WR
+let g:airline#themes#catppuccin_latte#palette.insert.airline_warning_to_airline_error = s:WR
+let g:airline#themes#catppuccin_latte#palette.visual.airline_warning_to_airline_error = s:WR
+let g:airline#themes#catppuccin_latte#palette.replace.airline_warning_to_airline_error = s:WR
+let g:airline#themes#catppuccin_latte#palette.commandline.airline_warning_to_airline_error = s:WR
+
+let g:airline#themes#catppuccin_latte#palette.normal.airline_error = s:ER
+let g:airline#themes#catppuccin_latte#palette.insert.airline_error = s:ER
+let g:airline#themes#catppuccin_latte#palette.visual.airline_error = s:ER
+let g:airline#themes#catppuccin_latte#palette.replace.airline_error = s:ER
+let g:airline#themes#catppuccin_latte#palette.commandline.airline_error = s:ER
+
+let g:airline#themes#catppuccin_latte#palette.terminal = copy(g:airline#themes#catppuccin#palette.insert)
