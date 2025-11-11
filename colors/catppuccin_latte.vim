@@ -1,6 +1,6 @@
 " Name: catppuccin_latte.vim
 
-set background=dark
+set background=light
 hi clear
 
 if exists('syntax on')
@@ -9,6 +9,11 @@ endif
 
 let g:colors_name='catppuccin_latte'
 set t_Co=256
+
+" Soporte para True Color
+if has('termguicolors')
+    set termguicolors
+endif
 
 let s:rosewater = "#DC8A78"
 let s:flamingo = "#DD7878"
@@ -40,31 +45,21 @@ let s:mantle = "#E6E9EF"
 let s:crust = "#DCE0E8"
 
 function! s:hi(group, guisp, guifg, guibg, gui, cterm)
-  let cmd = ""
-  if a:guisp != ""
-    let cmd = cmd . " guisp=" . a:guisp
-  endif
-  if a:guifg != ""
-    let cmd = cmd . " guifg=" . a:guifg
-  endif
-  if a:guibg != ""
-    let cmd = cmd . " guibg=" . a:guibg
-  endif
-  if a:gui != ""
-    let cmd = cmd . " gui=" . a:gui
-  endif
-  if a:cterm != ""
-    let cmd = cmd . " cterm=" . a:cterm
-  endif
-  if cmd != ""
-    exec "hi " . a:group . cmd
+  let l:cmd = []
+  if a:guisp != "" | call add(l:cmd, 'guisp=' . a:guisp) | endif
+  if a:guifg != "" | call add(l:cmd, 'guifg=' . a:guifg) | endif
+  if a:guibg != "" | call add(l:cmd, 'guibg=' . a:guibg) | endif
+  if a:gui != "" | call add(l:cmd, 'gui=' . a:gui) | endif
+  if a:cterm != "" | call add(l:cmd, 'cterm=' . a:cterm) | endif
+  
+  if !empty(l:cmd)
+    execute 'hi ' . a:group . ' ' . join(l:cmd, ' ')
   endif
 endfunction
 
-
-
+" Grupos de highlighting
 call s:hi("Normal", "NONE", s:text, s:base, "NONE", "NONE")
-call s:hi("Visual", "NONE", "NONE", s:surface1,"bold", "bold")
+call s:hi("Visual", "NONE", "NONE", s:surface1, "bold", "bold")
 call s:hi("Conceal", "NONE", s:overlay1, "NONE", "NONE", "NONE")
 call s:hi("ColorColumn", "NONE", "NONE", s:surface0, "NONE", "NONE")
 call s:hi("Cursor", "NONE", s:base, s:rosewater, "NONE", "NONE")
@@ -78,7 +73,7 @@ call s:hi("DiffChange", "NONE", s:base, s:yellow, "NONE", "NONE")
 call s:hi("DiffDelete", "NONE", s:base, s:red, "NONE", "NONE")
 call s:hi("DiffText", "NONE", s:base, s:blue, "NONE", "NONE")
 call s:hi("EndOfBuffer", "NONE", "NONE", "NONE", "NONE", "NONE")
-call s:hi("ErrorMsg", "NONE", s:red, "NONE", "bolditalic"    , "bold,italic")
+call s:hi("ErrorMsg", "NONE", s:red, "NONE", "bold,italic", "bold,italic")
 call s:hi("VertSplit", "NONE", s:crust, "NONE", "NONE", "NONE")
 call s:hi("Folded", "NONE", s:blue, s:surface1, "NONE", "NONE")
 call s:hi("FoldColumn", "NONE", s:overlay0, s:base, "NONE", "NONE")
@@ -142,6 +137,7 @@ call s:hi("Typedef", "NONE", s:yellow, "NONE", "NONE", "NONE")
 call s:hi("debugPC", "NONE", "NONE", s:crust, "NONE", "NONE")
 call s:hi("debugBreakpoint", "NONE", s:overlay0, s:base, "NONE", "NONE")
 
+" Links de grupos
 hi link Define PreProc
 hi link Macro PreProc
 hi link PreCondit PreProc
@@ -156,7 +152,7 @@ hi link StatusLineTermNC StatusLineNC
 hi link Terminal Normal
 hi link Ignore Comment
 
-" Set terminal colors for playing well with plugins like fzf
+" Colores para terminal
 let g:terminal_ansi_colors = [
   \ s:subtext1, s:red, s:green, s:yellow, s:blue, s:pink, s:teal, s:surface2,
   \ s:subtext0, s:red, s:green, s:yellow, s:blue, s:pink, s:teal, s:surface1
