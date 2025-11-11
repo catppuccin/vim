@@ -20,7 +20,6 @@ Justification:
 Catppuccin Latte is a light theme according to the official Catppuccin documentation. Using background=dark created inconsistencies with the color palette designed for light backgrounds.
 
 Links:
-
 [Vim :help 'background'](https://vimhelp.org/options.txt.html#%2527background%2527)
 ---------------
 
@@ -41,8 +40,9 @@ call s:hi("ErrorMsg", "NONE", s:red, "NONE", "bold,italic", "bold,italic")
 Justification:
 In Vim, text attributes must be separated by commas, not concatenated. "bolditalic" is not a valid attribute, while "bold,italic" is the correct syntax.
 
-[Vim :help attr-list] (https://vimhelp.org/syntax.txt.html#attr-list)
-[Vim :help highlight-args] (https://vimhelp.org/syntax.txt.html#%253Ahighlight-args)
+[Vim :help attr-list](https://vimhelp.org/syntax.txt.html#attr-list)
+[Vim :help highlight-args](https://vimhelp.org/syntax.txt.html#%253Ahighlight-args)
+
 3. Added `termguicolors` support.
 
 New functionality added:
@@ -58,8 +58,9 @@ termguicolors enables true 24-bit color (True Color) support in modern terminals
 
 Documentation:
 
-[Vim :help 'termguicolors'] (https://vimhelp.org/options.txt.html#%2527termguicolors%2527)
-[True Color in Vim - Comprehensive Guide] (https://gist.github.com/XVilka/8346728)
+[Vim :help 'termguicolors'](https://vimhelp.org/options.txt.html#%2527termguicolors%2527)
+
+[True Color in Vim - Comprehensive Guide](https://gist.github.com/XVilka/8346728)
 
 4. Optimized `s:hi` function
 
@@ -127,8 +128,8 @@ The correct order ensures changes are applied in the proper sequence, preventing
 
 Documentation:
 
-[Vim :help :hi-clear] (https://vimhelp.org/syntax.txt.html#%253Ahi-clear)
-[Vim :help :syntax-reset] (https://vimhelp.org/syntax.txt.html#%253Asyntax-reset)
+[Vim :help :hi-clear](https://vimhelp.org/syntax.txt.html#%253Ahi-clear)
+[Vim :help :syntax-reset](https://vimhelp.org/syntax.txt.html#%253Asyntax-reset)
 
 🎯 Impact of Changes
 Benefits achieved:
