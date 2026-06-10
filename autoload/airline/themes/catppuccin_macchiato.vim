@@ -1,7 +1,7 @@
 " Filename: autoload/airline/themes/catppuccin_macchiato.vim
 " Author: tilmaneggers, Mao-Yining
 " License: MIT License
-" Last Change: 2026-01-31
+" Last Change: 2026-06-10
 
 let s:rosewater = "#F4DBD6"
 let s:flamingo = "#F0C6C6"
@@ -80,4 +80,4 @@ let g:airline#themes#catppuccin_macchiato#palette.visual.airline_error = s:ER
 let g:airline#themes#catppuccin_macchiato#palette.replace.airline_error = s:ER
 let g:airline#themes#catppuccin_macchiato#palette.commandline.airline_error = s:ER
 
-let g:airline#themes#catppuccin_macchiato#palette.terminal = copy(g:airline#themes#catppuccin#palette.insert)
+let g:airline#themes#catppuccin_macchiato#palette.terminal = copy(g:airline#themes#catppuccin_macchiato#palette.insert)

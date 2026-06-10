@@ -1,7 +1,7 @@
 " Filename: autoload/airline/themes/catppuccin_frappe.vim
 " Author: tilmaneggers, Mao-Yining
 " License: MIT License
-" Last Change: 2026-01-31
+" Last Change: 2026-06-10
 
 let s:rosewater = "#F2D5CF"
 let s:flamingo = "#EEBEBE"
@@ -80,4 +80,4 @@ let g:airline#themes#catppuccin_frappe#palette.visual.airline_error = s:ER
 let g:airline#themes#catppuccin_frappe#palette.replace.airline_error = s:ER
 let g:airline#themes#catppuccin_frappe#palette.commandline.airline_error = s:ER
 
-let g:airline#themes#catppuccin_frappe#palette.terminal = copy(g:airline#themes#catppuccin#palette.insert)
+let g:airline#themes#catppuccin_frappe#palette.terminal = copy(g:airline#themes#catppuccin_frappe#palette.insert)
