@@ -22,7 +22,10 @@
 
 ## Usage
 
-**Note:** To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+> [!Note]
+> To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+>
+> For the best VertSplit appearance, `patch-9.2.349` is required.
 
 ### Vim 8+ Packages
 
