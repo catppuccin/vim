@@ -6,6 +6,7 @@ Author:      The Catppuccin Community <catppuccin.com>
 Maintainer:  M3nny <https://github.com/M3nny>
 Maintainer:  Mao-Yining <mao.yining@outlook.com>
 URL:         https://github.com/catppuccin/vim
+Options:     backend=vim dateformat="%Y-%m-%d"
 
 Environments: gui 256 16 8
 
