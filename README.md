@@ -16,12 +16,16 @@
 </p>
 
 ## ✨ Integrations
+
 - [lightline](https://github.com/itchyny/lightline.vim)
 - [airline](https://github.com/vim-airline/vim-airline)
 
 ## Usage
 
-**Note:** To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+> [!Note]
+> To get the expected visuals, you need to insert `set termguicolors` within your `.vimrc` file.
+>
+> For the best VertSplit appearance, `patch-9.2.349` is required.
 
 ### Vim 8+ Packages
 
@@ -33,11 +37,13 @@ git clone https://github.com/catppuccin/vim.git ~/.vim/pack/vendor/start/catppuc
 ```
 
 ### Manually
+
 1. Clone this repository
 2. Put the `colors` folder inside your `.vim` (or if the `colors` folder already exists, move all the catppuccin palettes inside it)
 3. When Vim is running use `:colorscheme catppuccin_` followed by the flavor name (e.g. `:colorscheme catppuccin_mocha`)
 
 ### Vim-Plug
+
 ```vim
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ```
@@ -45,16 +51,21 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 ## ✨ Integrations setup
 
 ### lightline
+
 1. Download the plugin via your plugin manager or manually
 2. Set the colorscheme by inserting the following line in your `.vimrc`:
+
 ```vim
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 ```
+
 3. Now that lightline is good to go, you can use `set noshowmode` to hide the default mode showcase since now it will be displayed in the plugin
 
 ### airline
+
 Airline should automatically choose the correct theme.
 If it does not you can force it by inserting the following line in your `.vimrc`:
+
 ```vim
 let g:airline_theme = 'catppuccin_mocha'
 ```
@@ -64,6 +75,10 @@ let g:airline_theme = 'catppuccin_mocha'
 - Q: **_"Why can't I see all the color groups correctly?"_**
 
   A: For better syntax highlighting you should download plugins that allow you to see all color groups for each language in question.
+
+## Contributing
+
+This color plugin is developed with [lifepillar/vim-colortemplate](https://github.com/lifepillar/vim-colortemplate/).
 
 ## 💝 Thanks to
 

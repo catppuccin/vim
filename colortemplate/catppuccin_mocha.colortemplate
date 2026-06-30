@@ -1,0 +1,17 @@
+; vim: ft=colortemplate noet cc=32,47,62 vts=31,15,15,4
+Full name:   Catppuccin Mocha
+Short name:  catppuccin_mocha
+Description: Soothing pastel theme for the high-spirited!
+Author:      The Catppuccin Community <catppuccin.com>
+Maintainer:  M3nny <https://github.com/M3nny>
+Maintainer:  Mao-Yining <mao.yining@outlook.com>
+URL:         https://github.com/catppuccin/vim
+Options:     backend=vim dateformat="%Y-%m-%d"
+
+Environments: gui 256 16 8
+
+Background: dark
+
+Include: palettes/mocha
+
+Include: groups/init

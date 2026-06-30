@@ -1,0 +1,9 @@
+; vim: ft=colortemplate
+;;; Base highlights settings and links
+Include: editor
+
+;;; Term colors
+Include: terminal
+
+;;; Highlights settings and links for plugins
+Include: extra
