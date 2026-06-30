@@ -45,7 +45,7 @@ git clone https://github.com/catppuccin/vim.git ~/.vim/pack/vendor/start/catppuc
 ### Vim-Plug
 
 ```vim
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'catppuccin/vim', { 'as': 'catppuccin', 'branch': 'main' }
 ```
 
 ## ✨ Integrations setup
