@@ -195,6 +195,10 @@ hi qfLineNr guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NON
 if s:tgc || s:t_Co >= 256
   if s:tgc
     hi QuickFixLine cterm=NONE
+    hi SpellBad guifg=#d20f39 guibg=NONE ctermfg=161 ctermbg=NONE cterm=underline
+    hi SpellCap guifg=#df8e1d guibg=NONE ctermfg=172 ctermbg=NONE cterm=underline
+    hi SpellLocal guifg=#1e66f5 guibg=NONE ctermfg=27 ctermbg=NONE cterm=underline
+    hi SpellRare guifg=#40a02b guibg=NONE ctermfg=34 ctermbg=NONE cterm=underline
     hi Visual cterm=NONE
   endif
   finish

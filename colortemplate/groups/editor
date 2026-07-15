@@ -50,12 +50,16 @@ PreInsert	overlay2	none
 Question	blue	none
 SpellBad	red	none	underline
   /gui	none	none	s=red undercurl
+  /256+tgc true	red	none	underline
 SpellCap	yellow	none	underline
   /gui	none	none	s=yellow undercurl
+  /256+tgc true	yellow	none	underline
 SpellLocal	blue	none	underline
   /gui	none	none	s=blue undercurl
+  /256+tgc true	blue	none	underline
 SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
+  /256+tgc true	green	none	underline
 StatusLine	text	crust	bold
   /16/8	text	mantle	reverse,bold
 StatusLineNC	overlay0	mantle
