@@ -135,14 +135,14 @@ if &background == 'dark'
   hi SpellLocal guifg=NONE guibg=NONE guisp=#89b4fa gui=undercurl ctermfg=111 ctermbg=NONE cterm=underline
   hi SpellRare guifg=NONE guibg=NONE guisp=#a6e3a1 gui=undercurl ctermfg=114 ctermbg=NONE cterm=underline
   hi Statement guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
-  hi StatusLine guifg=#cdd6f4 guibg=#11111b guisp=NONE gui=bold ctermfg=189 ctermbg=16 cterm=bold
+  hi StatusLine guifg=#b4befe guibg=#11111b guisp=NONE gui=bold ctermfg=147 ctermbg=16 cterm=bold
   hi StatusLineNC guifg=#6c7086 guibg=#181825 guisp=NONE gui=NONE ctermfg=59 ctermbg=232 cterm=NONE
   hi StorageClass guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
   hi String guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE
   hi Structure guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
   hi TabLine guifg=#6c7086 guibg=#11111b guisp=NONE gui=NONE ctermfg=59 ctermbg=16 cterm=NONE
   hi TabLineFill guifg=NONE guibg=#181825 guisp=NONE gui=NONE ctermfg=NONE ctermbg=232 cterm=NONE
-  hi TabLineSel guifg=#cdd6f4 guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=189 ctermbg=233 cterm=NONE
+  hi TabLineSel guifg=#b4befe guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=147 ctermbg=233 cterm=NONE
   hi Tag guifg=#b4befe guibg=NONE guisp=NONE gui=bold ctermfg=147 ctermbg=NONE cterm=bold
   hi Title guifg=#89b4fa guibg=NONE guisp=NONE gui=bold ctermfg=111 ctermbg=NONE cterm=bold
   hi TitleBar guifg=#cdd6f4 guibg=#181825 guisp=NONE gui=NONE ctermfg=189 ctermbg=232 cterm=NONE
@@ -295,7 +295,7 @@ if &background == 'dark'
     hi Structure ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi TabLine ctermfg=Grey ctermbg=Black cterm=NONE
     hi TabLineFill ctermfg=NONE ctermbg=DarkGrey cterm=NONE
-    hi TabLineSel ctermfg=White ctermbg=Black cterm=NONE
+    hi TabLineSel ctermfg=LightGrey ctermbg=Black cterm=NONE
     hi Tag ctermfg=LightGrey ctermbg=NONE cterm=bold
     hi Title ctermfg=Blue ctermbg=NONE cterm=bold
     hi TitleBar ctermfg=White ctermbg=DarkGrey cterm=NONE
@@ -579,14 +579,14 @@ if &background == 'light'
   hi SpellLocal guifg=NONE guibg=NONE guisp=#1e66f5 gui=undercurl ctermfg=27 ctermbg=NONE cterm=underline
   hi SpellRare guifg=NONE guibg=NONE guisp=#40a02b gui=undercurl ctermfg=34 ctermbg=NONE cterm=underline
   hi Statement guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
-  hi StatusLine guifg=#4c4f69 guibg=#dce0e8 guisp=NONE gui=bold ctermfg=236 ctermbg=254 cterm=bold
+  hi StatusLine guifg=#7287fd guibg=#dce0e8 guisp=NONE gui=bold ctermfg=69 ctermbg=254 cterm=bold
   hi StatusLineNC guifg=#9ca0b0 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=247 ctermbg=255 cterm=NONE
   hi StorageClass guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
   hi String guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE
   hi Structure guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE
   hi TabLine guifg=#9ca0b0 guibg=#dce0e8 guisp=NONE gui=NONE ctermfg=247 ctermbg=254 cterm=NONE
   hi TabLineFill guifg=NONE guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=NONE ctermbg=255 cterm=NONE
-  hi TabLineSel guifg=#4c4f69 guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=236 ctermbg=231 cterm=NONE
+  hi TabLineSel guifg=#7287fd guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=69 ctermbg=231 cterm=NONE
   hi Tag guifg=#7287fd guibg=NONE guisp=NONE gui=bold ctermfg=69 ctermbg=NONE cterm=bold
   hi Title guifg=#1e66f5 guibg=NONE guisp=NONE gui=bold ctermfg=27 ctermbg=NONE cterm=bold
   hi TitleBar guifg=#4c4f69 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=236 ctermbg=255 cterm=NONE
@@ -739,7 +739,7 @@ if &background == 'light'
     hi Structure ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi TabLine ctermfg=DarkGrey ctermbg=Grey cterm=NONE
     hi TabLineFill ctermfg=NONE ctermbg=Grey cterm=NONE
-    hi TabLineSel ctermfg=Black ctermbg=White cterm=NONE
+    hi TabLineSel ctermfg=DarkBlue ctermbg=White cterm=NONE
     hi Tag ctermfg=DarkBlue ctermbg=NONE cterm=bold
     hi Title ctermfg=Blue ctermbg=NONE cterm=bold
     hi TitleBar ctermfg=Black ctermbg=Grey cterm=NONE

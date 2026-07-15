@@ -60,13 +60,13 @@ SpellLocal	blue	none	underline
 SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
   /256+tgc true	green	none	underline
-StatusLine	text	crust	bold
+StatusLine	lavender	crust	bold
   /16/8	text	mantle	reverse,bold
 StatusLineNC	overlay0	mantle
   /16	overlay0	mantle
   /8	overlay0	mantle	reverse
 TabLine	overlay0	crust
-TabLineSel	text	base
+TabLineSel	lavender	base
   /8	text	mantle	bold
 TabLineFill	none	mantle
 ToolbarLine	none	none
