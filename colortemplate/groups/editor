@@ -21,7 +21,7 @@ EndOfBuffer	surface1	none
   /16	surface2	none
   /8	overlay0	none
 ErrorMsg	red	none	bold
-VertSplit	blue	none
+VertSplit	lavender	none
 VertSplitNC	crust	none
   /16/8	overlay0	none
 Folded	blue	none
@@ -38,7 +38,7 @@ NonText	overlay0	none
 Popup	text	mantle
 PopupTitle	subtext0	mantle
 Pmenu	overlay2	mantle
-PmenuBorder	blue	mantle
+PmenuBorder	lavender	mantle
 PmenuExtra	overlay0	mantle
 PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
