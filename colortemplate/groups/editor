@@ -39,6 +39,8 @@ Popup	text	mantle
 PopupTitle	subtext0	mantle
 Pmenu	overlay2	mantle
 PmenuBorder	lavender	mantle
+PmenuKind	blue	mantle
+PmenuKindSel	blue	surface0	bold
 PmenuExtra	overlay0	mantle
 PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
